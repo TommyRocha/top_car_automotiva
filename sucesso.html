@@ -1,0 +1,212 @@
+<!doctype html>
+<html >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TopCar</title>
+
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+
+    <!-- color styles - uncomment your preferred -->
+    <link rel="stylesheet" type="text/css" href="css/skin/red.css" name="colors" />
+    <!--
+    <link rel="stylesheet" type="text/css" href="css/skin/orange.css" name="colors" />
+    <link rel="stylesheet" type="text/css" href="css/skin/yellow.css" name="colors" />
+    <link rel="stylesheet" type="text/css" href="css/skin/green.css" name="colors" />
+    <link rel="stylesheet" type="text/css" href="css/skin/blue.css" name="colors" />
+    <link rel="stylesheet" type="text/css" href="css/skin/brown.css" name="colors" />
+    <link rel="stylesheet" type="text/css" href="css/skin/violet.css" name="colors" />
+    <link rel="stylesheet" type="text/css" href="css/skin/purple.css" name="colors" />
+    <link rel="stylesheet" type="text/css" href="css/skin/grey.css" name="colors" />
+    <link rel="stylesheet" type="text/css" href="css/skin/turquoise.css" name="colors" />
+    -->
+
+    <!-- Style Switcher Box delete for remove styleswitcher-->
+    <link rel="stylesheet" href="css/styleswitcher.css">
+
+
+
+    <!--ie8-->
+    <script type="text/javascript">
+        var htmlshim='abbr,article,aside,audio,canvas,details,figcaption,figure,footer,header,mark,meter,nav,output,progress,section,summary,time,video'.split(',');
+        var htmlshimtotal=htmlshim.length;
+        for(var i=0;i<htmlshimtotal;i++) document.createElement(htmlshim[i]);
+    </script>
+    <script type="text/javascript">
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+        document.createElement('input');
+        document.createElement('form');
+        document.createElement('audio')
+    </script>
+
+    <!-- google-font links -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+
+    <!-- modernizer js -->
+    <script src="js/vendor/modernizr.js"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <style>
+        h1{
+            color: rgba(255,255,255,1) !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Preloader -->
+<div class="mask">
+    <div id="loader" class="rotating"></div>
+</div>
+<!--/Preloader -->
+
+<div id="up"></div>
+
+<!-- Start Header -->
+<header id="navigation">
+    <div class="row">
+        <div class="large-3 small-6 medium-4 columns">
+
+            <!--start logo -->
+            <a title="Topcar" href="#"><img src="img/topcar.jpg" alt="Topcar" /></a>
+            <!-- end logo -->
+
+        </div>
+        <div class="large-9 small-6 medium-8 columns">
+            <div class="navigation">
+                <div class="menu-button one-page"></div>
+                <nav class="top-menu">
+
+                    <!-- start menu -->
+                    <ul data-breakpoint="800" class="flexnav one-page">
+                        <li><a class="external" title=""  href="index.html#up" >Início</a></li>
+                        <li><a class="external" title="" href="index.html#about" >Catálogo</a></li>
+                        <!--li><a title="" href="#team" >Team</a></li-->
+                        <!--li><a title="" href="#services" >Serviços</a></li-->
+                        <li><a class="external" title="" href="index.html#works" >Produtos</a></li>
+                        <li><a class="external" title="" href="index.html#contacts" >Atendimento</a></li>
+                    </ul>
+                    <!-- end menu -->
+
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!--end Header -->
+
+
+<!-- start parallax -->
+<div class="parallax responsive-parallax">
+
+    <!-- start contacts section -->
+    <section id="contacts" >
+        <div class="overlay"></div>
+        <div class="row">
+            <div class="large-12 columns">
+                <h1 class="title-section bold white">Atendimento<!--span class="border"--></span> </h1>
+            </div>
+            <div class="large-6 medium-6 columns text-left">
+                <h4 class="white bold">Mensagem</h4>
+                <p>Envie sua mensagem e agente uma visita.<br>
+                    Ligue já! Nossos representantes lhe farão uma visita.<br>
+                    <br>
+                    Queremos levar a você o melhor produto do mercado.
+                </p>
+                <h4 class="white bold">Fale conosco</h4>
+                <ul class="contact-detail">
+                    <!--li><strong><i class="fa fa-map-marker"></i> Address: </strong>1234 Street Name, City Name, England</li-->
+                    <li><strong><i class="fa fa-phone"></i> Telefone: </strong>+55 31 3773-0016</li>
+                    <li><strong><i class="fa fa-envelope"></i> Email: </strong><a  title="">vendas@topcarautomotiva.com.br</a></li>
+                    <!--li><strong>Rede social: </strong> <a href="#" title="facebook"><i class="fa fa-facebook"></i></a> <a href="#" title="twitter"><i class="fa fa-twitter"></i></a> <a href="#" title="google plus"><i class="fa fa-google-plus"></i></a> </li-->
+                </ul>
+                <h1>A TopCar agradece sua mensagem! Em breve retornaremos.</h1>
+            </div>
+            <div class="large-6  medium-6 columns text-left">
+                <h4 class="white bold">Envie sua mensagem</h4>
+
+                <!-- start contact form -->
+                <form method="post" action="email.php">
+                    <label>Nome:</label>
+                    <input name="nome" id="name" type="text">
+
+                    <label>E-mail:</label>
+                    <input name="email" id="email" type="text">
+
+                    <label>Mensagem:</label>
+                    <textarea  name="mensagem" id="text"></textarea>
+
+                    <input type="submit" value="Enviar" name="submit" class="submit-button">
+                    <div id="form-sent">
+                        <p class="white">Obrigado, iremos lhe responder em breve!</p>
+                    </div>
+                </form>
+                <!-- end contact form -->
+
+            </div>
+        </div>
+
+        <!-- google map -->
+        <!--a class="button-map close-map"><span>Mapa</span></a-->
+        <div id="google-map"></div>
+        <!-- end google-map -->
+
+    </section>
+    <!-- end contacts section -->
+</div>
+<!-- end parallax -->
+
+<!-- start footer -->
+<footer>
+    <div class="row">
+        <div class="large-12 columns">
+            <p><a href="http://www.conalle.com/" target="_blanck">&#169;Conalle<img src="img/logo_small.png" alt="Conalle"/> </a></p>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+<script src="js/vendor/jquery.js"></script> <!-- jquery js -->
+<script type="text/javascript" src="js/jquery.mb.ytplayer.js"></script> <!-- video background js -->
+<script src="js/foundation.min.js"></script> <!-- foundation js -->
+<script type="text/javascript"  src="js/jquery.onepagenav.js"></script> <!-- navigation js -->
+<script src="js/plugins.js" type="text/javascript"></script> <!-- various plugins js -->
+<script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script> <!-- slider revolutiony js -->
+<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script> <!-- slider revolution js -->
+<script type="text/javascript" src="js/revolution-custom.js"></script> <!-- slider revolution settings js -->
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script> <!-- lightbox on portfolio js -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> <!-- google mapy js -->
+<script type="text/javascript" src="js/custom.js"></script> <!-- tangram required js -->
+
+<!-- Start Style Switcher to remove -->
+<script src="js/styleswitcher.js"></script>
+<script src="js/jquery-cookie.js"></script> <!-- jQuery cookie -->
+<!--div class="switcher"></div-->
+<!-- End Style Switcher -->
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50302093-1', 'mordorthemes.com');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>
